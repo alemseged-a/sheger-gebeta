@@ -5,28 +5,29 @@
     <title>Sheger Gebeta - Contact</title>
 </head>
 <body>
-    <header style="background:#222; color:white; padding:20px; text-align:center;">
+    <header align="center">
+        <img src="photo.jpg" alt="Sheger Gebeta Logo" width="200">
         <h1>Request a Review</h1>
         <nav>
-            <a href="index.html" style="margin:10px; color:white;">Home</a>
-            <a href="videos.html" style="margin:10px; color:white;">Videos</a>
-            <a href="contact.html" style="margin:10px; color:white;">Request / Contact</a>
+            <a href="index.html">Home</a><br>
+            <a href="videos.html">Videos</a><br>
+            <a href="contact.html">Request / Contact</a>
         </nav>
     </header>
 
-    <h2>Submit Your Request</h2>
+    <h2 align="center">Submit Your Request</h2>
 
-    <form>
-        <label>Name:</label><br>
+    <form align="center">
+        <label><b>Name:</b></label><br>
         <input type="text" name="name"><br><br>
 
-        <label>Email:</label><br>
+        <label><b>Email:</b></label><br>
         <input type="email" name="email"><br><br>
 
-        <label>Restaurant Name:</label><br>
-        <input type="text" name="restaurant"><br><br>
+        <label><b>Restaurant Name:</b></label><br>
+        <input type="text" name="restaurant" required><br><br>
 
-        <label>Food Type:</label><br>
+        <label><b>Food Type:</b></label><br>
         <select>
             <option>Traditional</option>
             <option>Fast Food</option>
@@ -34,19 +35,19 @@
             <option>International</option>
         </select><br><br>
 
-        <label>Urgency:</label><br>
+        <label><b>Urgency:</b></label><br>
         <input type="radio" name="urgency" value="High"> High
         <input type="radio" name="urgency" value="Medium"> Medium
         <input type="radio" name="urgency" value="Low"> Low<br><br>
 
-        <label>Additional Notes:</label><br>
+        <label><b>Additional Notes:</b></label><br>
         <textarea name="notes" rows="5"></textarea><br><br>
 
         <input type="submit" value="Submit">
     </form>
 
-    <footer style="background:#222; color:white; text-align:center; padding:10px;">
-        <p>© 2025 Sheger Gebeta</p>
+    <footer>
+        <p align="center">© 2025 Sheger Gebeta</p>
     </footer>
 </body>
 </html>
